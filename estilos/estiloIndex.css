@@ -1,0 +1,47 @@
+    * {
+        font-family: 'Franklin Gothic Medium';
+    }
+
+    .container {
+        font-size: 25px;
+    }
+
+    button {
+        font-size: 30px;
+    }
+
+    .h1 {
+        font-size: 60px;
+    }
+
+    span {
+        font-size: 30px;
+    }
+
+    .link {
+        text-decoration: none;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+    @media (max-width: 800px) {
+        .text-info {
+            font-size: 15px;
+        }
+
+        div .feature-icon {
+            width: 50%;
+        }
+    }
+
+    @media (max-width: 1366px) {
+        .text-info {
+            font-size: 15px;
+        }
+
+        div .feature-icon {
+            width: 50%;
+        }
+    }

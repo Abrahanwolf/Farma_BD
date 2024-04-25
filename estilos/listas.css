@@ -1,0 +1,23 @@
+.table {
+    font-size: 20px;
+}
+
+.container h1 {
+    font-size: 30px;
+
+}
+@media (max-width: 1366px) {
+    .table {
+        font-size: 18px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 800px) {
+    .table {
+        font-size: 12px;
+    }
+
+}

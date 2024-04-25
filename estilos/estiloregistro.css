@@ -1,0 +1,57 @@
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: 'Franklin Gothic Medium';
+	}
+
+	.container {
+		font-size: 25px;
+	}
+
+	body {
+		align-items: center;
+		background-color: #f5f5f5;
+	}
+
+	b {
+		font-size: 15px;
+		color: rgb(27, 175, 168);
+	}
+
+	p {
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.checkbox {
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.Formulario {
+		background-color: rgb(255, 255, 255);
+		padding: 30px 30px;
+		width: 45%;
+		margin: auto;
+		margin-top: 0px;
+	}
+
+	.Formulario .btn {
+		width: 90%;
+		margin: auto;
+	}
+
+	@media (max-width: 800px) {
+		.Formulario {
+			width: 60%;
+			margin: auto;
+		}
+	}
+
+	@media (max-width: 1366px) {
+		.Formulario {
+			width: 100%;
+			margin: auto;
+			margin-top: 0px;
+		}
+	}
